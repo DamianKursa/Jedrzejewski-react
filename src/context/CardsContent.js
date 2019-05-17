@@ -22,6 +22,7 @@ export default React.createContext({
         {name:"Słodki bufet"},
         {name:"Uroczysty tort"},     
         {name:"Meble na stół wiejski"},
+        {type:'alko',name:"Meble na stół wiejski"},
     ]
 })
 
