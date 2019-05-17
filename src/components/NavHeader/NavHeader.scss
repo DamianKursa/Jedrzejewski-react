@@ -1,0 +1,32 @@
+.nav-header{
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 1rem 1rem 1rem;
+    align-items: center;
+}
+.nav-link{
+    cursor: pointer;
+    width: auto;
+    color:#14305E;
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem 0 0;
+    &--nav-link-line{
+        &::after{
+            background-color: #000;
+            content: "";
+            display: block;
+            width: 1px;
+            position: relative;
+            height: 15px;
+            margin-left: 10px
+        }
+    }
+    &--closeclear{
+        border-bottom: #14305E solid 5px
+    }
+  }

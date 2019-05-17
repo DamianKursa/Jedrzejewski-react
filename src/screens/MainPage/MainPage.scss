@@ -1,0 +1,29 @@
+.mainpage-content{
+    margin-top:3rem;
+    text-align: center;
+    &__title{
+        font-size:1.5rem;
+        line-height: 2rem;
+        font-weight: 100;
+    }
+    &__title-2{
+        text-align: left;
+        line-height: 1rem;
+    }
+}
+
+.plan-your-weeding{
+    margin-top:32px;
+    padding: 0 2.5rem 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 330px;
+    background-image: url('../../assets//plan-wedding-bg.png')
+}
+.mainpage-organize-also{
+    display: flex;
+    flex-direction: column;
+}
+

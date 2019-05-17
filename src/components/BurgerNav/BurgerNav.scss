@@ -1,0 +1,31 @@
+.burger-nav{
+    width: 100vw;
+    max-height: 0;
+    &--open{
+        animation: slide .3s ease-in-out forwards;
+    }
+    &--closed{
+        max-height: 0;
+        animation: slide-up .3s ease-in-out forwards; 
+    }
+}
+.nav-list{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    color:#14305E;
+    font-size: .875rem;
+    margin-left:2rem;
+}
+
+.nav-item{
+    line-height: 2.5rem;
+}
+@keyframes slide{
+    0%{max-height: 0;}
+    100%{max-height: 500px;}
+}
+@keyframes slide-up{
+    0%{max-height: 500px;}
+    100%{max-height:0;}
+}

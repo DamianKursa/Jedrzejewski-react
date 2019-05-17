@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  font-weight: lighter;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+a{
+  font-weight: bold;
+  cursor: pointer;
+}
+ .btn{
+   font-size:1rem;
+  &__main{
+    text-align: center;
+    width: 70%;
+    font-weight: normal;
+    background-color:#E26A6A;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 8px;
+    font-size:1.25rem;
+    color:white !important;
+    &--plan{
+      font-size:1rem;
+      padding: 1rem .5rem 1rem .5rem;
+      font-weight: 700;
+
+    }
+  }
+  &__card{
+
+    color:#011E51 !important;
+    text-decoration: none;
+    font-weight: 500;
+
+  }
+ }
+
+ .medium{
+   font-weight: 500;
+ }
+ .icons{
+   width: auto;
+   height: auto;
+   margin-right:.5rem;
+ }
